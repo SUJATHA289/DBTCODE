@@ -1,0 +1,8 @@
+sources:
+  - name: "employee_sources"
+    database: "DV_DBTG_SF"
+    schema: "DBTL_DV_SCH"
+    tables:
+      - name: "employee_profile"
+      - name: "employee"
+      - name: "emp_cmp"
