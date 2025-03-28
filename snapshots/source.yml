@@ -5,4 +5,4 @@ sources:
     tables:
       - name: "employee_profile"
       - name: "employee"
-      - name: "emp_cmp"
+      - name: "emp_comp"
