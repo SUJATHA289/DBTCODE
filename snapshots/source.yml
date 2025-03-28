@@ -6,3 +6,4 @@ sources:
       - name: "employee_profile"
       - name: "employee"
       - name: "emp_comp"
+      - name: "EMP_COMP_RANGE"
