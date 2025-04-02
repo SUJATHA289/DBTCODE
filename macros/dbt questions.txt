@@ -1,0 +1,30 @@
+DBt Questions 
+
+1.tell about your project.
+2.What problems faced during the project.
+3.how did yoou implement error handling in DBT.
+4.types of test used .
+5.what is generic tests.
+6.what is zinja what you do about it in dbt and about macros.
+7.how did you create dbt models.
+8.what yml file and uses.
+9.purpose of dbt manifest.json file
+10.types of materialization
+11.advantages of dbt data transformations.
+12.how to handle complex queries in dbt.
+13.models names must be unique ? or how?
+14.how dbt manages dependencies between models.
+15. difference between compile, run and test models .
+16.dbt macros 
+17 do you have knowledge on Git ?
+
+
+1.DBT test , Generic test and singular test.
+2.AUDIT PROCESS IN dbt 
+3.IF SINGLE RECORD FAIL , HOW DO WE COLLECT THE REJECT RECORD.
+4.LOTS OF DEVOPS CRITERIA, HOW IS dbt MACRO , SNAPSHOT , SEEDS, WHAT HAPPENS , TRUNCTAE RELOAD- HOW DO WE DO?
+5.OVER ALL dATA ENGINEERING 
+ IF NO dbt , INFORMATICA,MATILIAN, 
+ WHICH TOOL IS PLACED TO 
+6.datA WARE HOUSEING ,NO DIMENSIONS AND FACTS,
+7. WHAT IS dbt WHAT IS NEXT - dYNAMIC TABLES , HOW TO DO?8. EXPLAIN THE PROJECT , SUCCESS FATORS -api, AIRFLOW -gcS- SF-DBT MODELS -LAND STG-CORE-PUBLISH-FACT-
