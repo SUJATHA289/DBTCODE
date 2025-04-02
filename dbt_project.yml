@@ -43,8 +43,20 @@ models:
       +transient: true
       +target_schema: DBTL_DV_SCH
       +target_database: DV_DBTG_SF
+    views: 
+      +target_schema: DBTL_DV_SCH
+      +target_database: DV_DBTG_SF 
 snapshots:
   +transient: true
   +target_schema: DBTL_DV_SCH
   +target_database: DV_DBTG_SF
+  staging: 
+    +transient: true
+    +target_schema: DBTL_DV_SCH
+    +target_database: DBT_STG
+seeds:
+  +transient: true
+  +target_schema: DBTL_DV_SCH
+  +target_database: SEEH_DBTG_SF
+
 

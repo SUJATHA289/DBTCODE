@@ -7,3 +7,8 @@ sources:
       - name: "employee"
       - name: "emp_comp"
       - name: "EMP_COMP_RANGE"
+  - name: "dbtstg"
+    database: "DV_DBTG_SF"
+    schema: "DBT_STG"
+    tables:
+      - name: "SALES"
