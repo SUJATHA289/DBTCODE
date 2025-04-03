@@ -6,4 +6,4 @@
         incremental_strategy="delete+insert",
     )
 }}
-select * from {{ ref('stg_employee_snap') }}
+select * from {{ ref('stg_employee_snap') }} where dbt_valid_to is null
