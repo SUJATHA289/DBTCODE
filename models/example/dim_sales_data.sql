@@ -1,6 +1,8 @@
 {{
     config(
-        materialized='table'
+        materialized='table',
+        unikey_key ='sale_id',
+        on_error ='continue'
     )
 }}
 with sales 
@@ -11,4 +13,8 @@ with sales
     ({{sale_tax ('sale_amt','GST')}}) as total_sale_value
     from {{ ref('stg_sales') }}
 )
-select * from sales
+
+select hash(sale_id) as SK_sale_id ,
+    sale_id,
+    total_sale_value
+from sales
