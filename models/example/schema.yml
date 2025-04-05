@@ -10,15 +10,6 @@ models:
             tests:
                 - unique
                 - not_null
-
-    - name: dim_employee
-      description: "A starter dbt model"
-      columns:
-          - name: EMP_ID
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
     - name: dim_sales_data
       description: "A starter dbt model"
       columns:
