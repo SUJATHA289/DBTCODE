@@ -1,0 +1,34 @@
+What is the result of Inner Join and Left Outer Join
+	Table_A
+ 
+	ID
+	1
+	1
+	0
+	null
+ 
+	Table_B
+ 
+	ID
+	1
+	0
+	null
+	null
+ 
+SELECT a.ID, 
+      b.ID
+FROM TABLE_A a INNER/LEFT JOIN TABLE_B b
+ON a.ID = b.ID;
+ 
+ table A   table b
+ 1	         1
+ 1           0
+ 0           null
+ null         null
+ 
+ table A    table b
+ 1           1
+ 1           
+ 0
+ null
+ 

@@ -1,0 +1,17 @@
+Input file
+Name| age | 2024-12-02 | 2024-12-05 | 2024-12-16 | 2024-12-30 | 2024-12-31
+Raj     | 18   |       yes          |       yes          |       yes          |       yes          |       yes          |
+ 
+Snowflake target table
+Name | age | Period
+Raj      | 18   |2024-12-02
+Raj      | 18   |2024-12-05
+Raj      | 18   |2024-12-16
+Raj      | 18   |2024-12-30
+Raj      | 18   |2024-12-31
+
+
+infer schema  
+
+sharding 
+ 

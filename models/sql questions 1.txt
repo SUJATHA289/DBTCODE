@@ -1,0 +1,33 @@
+Table STOCK_PRICES having 3 columns: StockID, Date, and Price
+Please write query to find the dates when the stock price increased compared to the previous day for each stock.
+
+stock id , date , price
+
+select 
+id,
+date,
+price,
+lag(price) over (partition by id order by date) as previous_date from stock 
+
+where price > previous_date
+
+Table MATCH having 3 columns: team_1, team_2, winner.
+Please write the query having 2 columns - team_name and number_of_wins 
+
+coulm 1  column 2   winner
+team1    team 2     
+
+team1  team2    winner
+IND      NZ         IND
+AUS      NZ        AUS
+IND       AUS      IND
+PAK      NZ         PAK
+
+select winner ,
+count(*) as wins from match 
+group by winner order by wins desc
+
+team   wins
+india   2
+austria 1
+paki	1

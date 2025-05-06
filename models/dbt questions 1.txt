@@ -1,0 +1,23 @@
+trancient tables , pemanent table, how to reading dta ,
+
+use of macros , seeds , zinja, dbt jobs ,cloud.core difference. RBAC ,
+
+Dbt packages used for perfoming part. DQ. DBT Arifracts.
+
+audit balance control frame work.
+
+snowfake is platformm
+getting from external storage
+
+from sf to DBT today to do transformation if not dbt we can use tasks in Snowflake we can do with stored procedures 
+
+data orchestration , data ingestion /data transformation .
+matellian , tallend , data integration - load to snowflake 
+
+why i dbt /collaese.
+
+sturvture available , we can use dbt to understand easily.
+
+lineage we can understand easily.
+
+automate - copy into command no need to write again , snowpipe - notification we need to set up ARN/ AIN -integration is important.
